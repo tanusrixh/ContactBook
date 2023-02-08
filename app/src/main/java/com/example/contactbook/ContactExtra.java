@@ -22,9 +22,9 @@ public class ContactExtra extends ArrayAdapter<ContactsInfo>{
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         ContactsInfo contact = getItem(position);
-        if(convertView == null){
+        if(convertView == null)
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.cell,parent,false);
-        }
+
 
         TextView fName = convertView.findViewById(R.id.fTitle);
         TextView lName = convertView.findViewById(R.id.lTitle);

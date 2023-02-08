@@ -20,16 +20,16 @@
         android:layout_gravity="center_horizontal"
         android:textSize="25sp"
         />
+
     <Button
         android:id="@+id/newContact"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:text="+"
-        android:textSize="25sp"
-        android:backgroundTint="#288ba8"
         android:layout_gravity="end"
+        android:backgroundTint="#288ba8"
         android:onClick="newContact"
-        >
+        android:text="+"
+        android:textSize="25sp">
 
     </Button>
 </androidx.appcompat.widget.Toolbar>

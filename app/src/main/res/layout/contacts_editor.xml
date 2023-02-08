@@ -29,6 +29,7 @@
         android:layout_height="50sp"
         android:layout_gravity="center"
         android:hint="First Name"
+        android:maxLines="1"
         android:layout_marginTop="100sp"
         android:layout_marginHorizontal="25sp"
         >
@@ -41,6 +42,7 @@
         android:layout_height="50sp"
         android:layout_gravity="center"
         android:hint="Last Name"
+        android:maxLines="1"
         android:layout_marginTop="25sp"
         android:layout_marginHorizontal="25sp"
         >
@@ -52,6 +54,7 @@
         android:layout_height="50sp"
         android:layout_gravity="center"
         android:hint="Phone Number"
+        android:maxLines="1"
         android:layout_marginTop="25sp"
         android:layout_marginHorizontal="25sp"
         >
@@ -63,6 +66,7 @@
         android:layout_height="50sp"
         android:layout_gravity="center"
         android:hint="Email"
+        android:maxLines="1"
         android:layout_marginTop="25sp"
         android:layout_marginHorizontal="25sp"
         >
@@ -78,7 +82,7 @@
         android:text="Save"
         android:textSize="25sp"
         android:layout_marginVertical="25sp"
-        android:onClick="addContact"
+        android:onClick="saveContact"
         />
         <Button
             android:id="@+id/oldInfo"

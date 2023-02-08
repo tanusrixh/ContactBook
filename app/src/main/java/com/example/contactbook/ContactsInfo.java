@@ -27,7 +27,7 @@ public class ContactsInfo {
         this.lName = lName;
         this.number = number;
         this.email = email;
-        this.dates = null;
+        dates = null;
     }
 
     public int getId(){
@@ -39,7 +39,7 @@ public class ContactsInfo {
     }
 
     public String getFName(){
-        return this.fName;
+        return fName;
     }
 
     public void setFName(String fName){
@@ -47,7 +47,7 @@ public class ContactsInfo {
     }
 
     public String getLName(){
-        return this.lName;
+        return lName;
     }
 
     public void setLName(String lName){
@@ -55,7 +55,7 @@ public class ContactsInfo {
     }
 
     public String getNumber(){
-        return this.number;
+        return number;
     }
 
     public void setNumber(String number){
@@ -63,7 +63,7 @@ public class ContactsInfo {
     }
 
     public String getEmail(){
-        return this.email;
+        return email;
     }
 
     public void setEmail(String email){
@@ -71,7 +71,7 @@ public class ContactsInfo {
     }
 
     public Date getDates(){
-        return this.dates;
+        return dates;
     }
 
     public void setDates(Date date){

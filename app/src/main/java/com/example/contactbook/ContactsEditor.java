@@ -1,6 +1,8 @@
 package com.example.contactbook;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -33,4 +35,8 @@ public class ContactsEditor extends AppCompatActivity{
         finish();
     }
 
+    public void oldContact(View view) {
+        Intent main = new Intent(ContactsEditor.this, MainActivity.class);
+        startActivity(main);
+    }
 }

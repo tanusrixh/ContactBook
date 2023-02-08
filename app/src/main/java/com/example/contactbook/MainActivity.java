@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.content.Intent;
 import android.view.View;
-import android.widget.Button;
+//import android.widget.Button;
 import android.widget.ListView;
 import android.widget.AdapterView;
 
@@ -27,13 +27,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void newContact(View view){
-
+        Intent addContact = new Intent(this, ContactsEditor.class);
+        startActivity(addContact);
     }
 
     private void setContactExtra(){
-        ContactExtra contactview = new ContactExtra(getApplicationContext(), ContactsInfo.contacts);
-        displayContact.setAdapter(contactview);
+        ContactExtra contact = new ContactExtra(getApplicationContext(), ContactsInfo.contacts);
+        displayContact.setAdapter(contact);
     }
+
+
 
 
 }
